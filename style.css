@@ -82,13 +82,11 @@ html,body{
     background-size: cover;
     background-position: bottom;
 }
-
-.banners h2{
-    
+.heading1{
     font-size: 60px;
 }
-.banners p{
-    font-size: 25px;
+.para1{
+     font-size: 25px;
 }
 #iphone17{
     height: 90%;
@@ -99,32 +97,26 @@ html,body{
 }
 
 #icloud{
-    height: 90%;
+    height: 100%;
     width: 50%;
     background-image: url(https://www.apple.com/v/home/ch/images/promos/icloud-plus/promo_icloud_plus__d4639vh3tz2a_large_2x.jpg);
     background-size: cover;
     background-position: bottom;
 }
-#icloud h2{
+.heading2{
     font-size: 50px;
 }
-#icloud p{
-    font-size: 20px;
+.para2{
+    font-size: 20px; 
 }
 
 #games{
     color: white;
-    height: 90%;
+    height: 100%;
     width: 50%;
     background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-games/promo_apple_games__bfy0db0xi602_large_2x.jpg);
     background-size: cover;
     background-position: bottom;
-}
-#games h2{
-    font-size: 50px;
-}
-#games p{
-    font-size: 20px;
 }
 
 
@@ -134,4 +126,20 @@ html,body{
     display: flex;
     padding: 20px;
     gap: 10px;
+}
+
+#airpods{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_large_2x.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#ipad{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/ipad-air/promo_ipad_air_avail__6i02t7nujr62_large_2x.jpg);
+     background-size: cover;
+    background-position: bottom;
 }
