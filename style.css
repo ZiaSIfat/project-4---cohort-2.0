@@ -23,7 +23,7 @@ html,body{
     gap: 20px;
 }
 
-#banner{
+#banner1{
     height: 90%;
     width: 100%;
     text-align: center;
@@ -33,11 +33,11 @@ html,body{
     background-size: cover;
     background-position: bottom;
 }
-#banner h2{
+#banner1 h2{
     font-size: 50px;
     font-weight: 800;
 }
-#banner h6{
+#banner1 h6{
     font-size: 25px;
     font-weight: 400;
     padding: 10px;
@@ -68,22 +68,70 @@ html,body{
     color: white;
 }
 
-#banner2{
-    margin-top: 10px;
-    height: 90%;
-    width: 100%;
+.banners{
+    margin-top: 20px;
     text-align: center;
     color: black;
     padding:35px;
+    
+}
+#air{
+    height: 90%;
+    width: 100%;
     background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_large_2x.jpg);
     background-size: cover;
     background-position: bottom;
 }
 
-#banner2 h2{
+.banners h2{
     
     font-size: 60px;
 }
-#banner2 p{
+.banners p{
     font-size: 25px;
+}
+#iphone17{
+    height: 90%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_large_2x.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#icloud{
+    height: 90%;
+    width: 50%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/icloud-plus/promo_icloud_plus__d4639vh3tz2a_large_2x.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#icloud h2{
+    font-size: 50px;
+}
+#icloud p{
+    font-size: 20px;
+}
+
+#games{
+    color: white;
+    height: 90%;
+    width: 50%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-games/promo_apple_games__bfy0db0xi602_large_2x.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#games h2{
+    font-size: 50px;
+}
+#games p{
+    font-size: 20px;
+}
+
+
+.flex-banner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
 }
