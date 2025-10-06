@@ -104,10 +104,10 @@ html,body{
     background-position: bottom;
 }
 .heading2{
-    font-size: 50px;
+    font-size: 45px;
 }
 .para2{
-    font-size: 20px; 
+    font-size: 18px; 
 }
 
 #games{
@@ -124,7 +124,7 @@ html,body{
     height: 100%;
     width: 100%;
     display: flex;
-    padding: 20px;
+    padding: 10px;
     gap: 10px;
 }
 
@@ -140,6 +140,20 @@ html,body{
     height: 100%;
     width: 50%;
     background-image: url(https://www.apple.com/v/home/ch/images/promos/ipad-air/promo_ipad_air_avail__6i02t7nujr62_large_2x.jpg);
+     background-size: cover;
+    background-position: bottom;
+}
+#trade{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
+     background-size: cover;
+    background-position: bottom;
+}
+#card{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-card/promo_apple_card__5cm7draujpey_large_2x.jpg);
      background-size: cover;
     background-position: bottom;
 }
