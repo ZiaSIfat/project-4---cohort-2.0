@@ -15,5 +15,50 @@ html,body{
     display: flex;
     padding: 20px;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
+}
+
+#banner{
+    height: 90%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium_2x.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#banner h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+#banner h6{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+#btns{
+    padding-top: 10px;
+}
+
+#btns button{
+    padding: 5px 14px;
+    border-radius: 15px;
+}
+
+#learn-btn{
+    margin-right: 20px;
+    color: white;
+    background-color: royalblue;
+    border: none;
+}
+#buy-btn{
+    background-color: black;
+    color: royalblue;
+    border: 1px solid royalblue;
+}
+#buy-btn:hover{
+    background-color: royalblue;
+    color: white;
 }
